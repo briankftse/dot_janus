@@ -1,0 +1,6 @@
+" Remove toolbar
+:set guioptions-=T
+
+" Default gui color scheme
+color solarized
+set bg=dark
