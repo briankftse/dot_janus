@@ -1,0 +1,21 @@
+[submodule "jslint.vim"]
+	path = jslint.vim
+	url = git://github.com/hallettj/jslint.vim.git
+[submodule "vim-powerline"]
+	path = vim-powerline
+	url = git://github.com/Lokaltog/vim-powerline.git
+[submodule "closetag.vim"]
+	path = closetag.vim
+	url = git://github.com/vim-scripts/closetag.vim.git
+[submodule "snipmate-snippets"]
+	path = snipmate-snippets
+	url = git://github.com/honza/snipmate-snippets.git
+[submodule "vim-rails"]
+	path = vim-rails
+	url = git://github.com/tpope/vim-rails.git
+[submodule "vim-snipmate"]
+	path = vim-snipmate
+	url = git://github.com/garbas/vim-snipmate.git
+[submodule "vim-web-indent"]
+	path = vim-web-indent
+	url = git://github.com/lukaszb/vim-web-indent.git
