@@ -19,3 +19,6 @@
 [submodule "vim-web-indent"]
 	path = vim-web-indent
 	url = git://github.com/lukaszb/vim-web-indent.git
+[submodule "vim-pasta"]
+	path = vim-pasta
+	url = git://github.com/sickill/vim-pasta.git
