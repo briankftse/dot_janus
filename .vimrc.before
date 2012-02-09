@@ -60,3 +60,6 @@ function! SummarizeTabs()
     echohl None
   endtry
 endfunction
+
+call janus#disable_plugin('tagbar')
+call janus#disable_plugin('NrrwRgn')

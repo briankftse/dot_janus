@@ -22,3 +22,6 @@
 [submodule "vim-pasta"]
 	path = vim-pasta
 	url = git://github.com/sickill/vim-pasta.git
+[submodule "xmledit"]
+	path = xmledit
+	url = https://github.com/sukima/xmledit.git
