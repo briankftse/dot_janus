@@ -3,20 +3,8 @@ let $JS_CMD='node'
 " Set encoding
 set encoding=utf-8
 
-" Whitespace stuff
-set nowrap
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
-set expandtab
-set list listchars=tab:\ \ ,trail:·
-
 " Font Size
 set guifont=Bitstream\ Vera\ Sans\ Mono:h14
-
-" Directories for swp files
-set backupdir=~/.vim/backup
-set directory=~/.vim/backup
 
 " Remove trailing white spaces
 autocmd BufWritePre * :%s/\s\+$//e
@@ -50,4 +38,12 @@ function! SummarizeTabs()
 endfunction
 
 call janus#disable_plugin('tagbar')
-call janus#disable_plugin('NrrwRgn')
+call janus#disable_plugin('pep8')
+call janus#disable_plugin('easymotion')
+call janus#disable_plugin('buffergator')
+call janus#disable_plugin('narrowregion')
+call janus#disable_plugin('syntastic')
+call janus#disable_plugin('gundo')
+call janus#disable_plugin('tasks')
+call janus#disable_plugin('watchtower')
+call janus#disable_plugin('vimwiki')
